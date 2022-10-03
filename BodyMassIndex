@@ -1,0 +1,13 @@
+//BMI
+#include <stdio.h>
+void main()
+{
+float a,b,c;
+
+printf("WHAT IS YOUR WEIGHT IN KGS \n");
+scanf("%f",&a);
+    printf("WHAT IS YPUR HEIGHT IN M \n");
+    scanf("%f",&b);
+    c = (a / (b * b));
+    printf("YOUR BMI IS %f \n",c);
+}
